@@ -47,7 +47,7 @@ OPENAI_API_KEY = os.getenv('OPENAI_API_KEY', 'sk-proj-g-xU3zHskRK0MAqFj4aLsM5wJW
 
 
 CORS_ALLOWED_ORIGINS = [
-    "http://localhost:3001",  # Allow requests from React frontend
+    "http://localhost:3000",  # Allow requests from React frontend
 ]
 
 REST_FRAMEWORK = {
